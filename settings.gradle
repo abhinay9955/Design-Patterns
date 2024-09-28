@@ -1,0 +1,12 @@
+rootProject.name = 'Design-Patterns'
+include 'Creational:Builder'
+findProject(':Creational:Builder')?.name = 'Builder'
+include 'Creational:Factorymethod'
+findProject(':Creational:Factorymethod')?.name = 'Factorymethod'
+include 'Creational:AbstractFactoryMethod'
+findProject(':Creational:AbstractFactoryMethod')?.name = 'AbstractFactoryMethod'
+include 'Creational:Prototype'
+findProject(':Creational:Prototype')?.name = 'Prototype'
+include 'Creational:Singleton'
+findProject(':Creational:Singleton')?.name = 'Singleton'
+
